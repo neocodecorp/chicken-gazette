@@ -10,9 +10,6 @@ export default function ChickenNewsPage() {
           <div className="text-center">
             <h1 className="text-3xl md:text-4xl font-bold text-orange-800 mb-1">📰 🐣 THE CHICKEN EMPIRE GAZETTE</h1>
             <p className="text-base text-orange-600 font-medium">Latest News from the Coop and Beyond!</p>
-            <Badge variant="outline" className="mt-2 text-orange-700 border-orange-300">
-              Issue #07 | {new Date().toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })}
-            </Badge>
           </div>
         </div>
       </header>
